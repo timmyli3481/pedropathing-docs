@@ -3,16 +3,13 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Pedro Pathing',
   openGraph: {
     url: 'https://pedropathing.com',
-    siteName: 'Pedro Pathing',
     images: [
       {
         url: 'https://pedropathing.com/banner.png',
         width: 1200,
         height: 200,
-        alt: 'Pedro Pathing',
       },
     ],
     locale: 'en_US',

@@ -47,8 +47,8 @@ export async function generateMetadata(props: {
   if (!page) notFound();
 
   return {
-    title: "Pedro Pathing",
     openGraph: {
+      title: "Pedro Pathing",
       images: getPageImage(page).url,
     },
   };
