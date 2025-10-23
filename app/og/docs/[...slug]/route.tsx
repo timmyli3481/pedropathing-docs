@@ -54,7 +54,7 @@ export async function GET(
             maxWidth: '80%',
           }}
         >
-          {page.data.description ? page.data.title : "Pedro Pathing"}
+          {page.data.description ? page.data.title : ""}
         </div>
         <div
           style={{
